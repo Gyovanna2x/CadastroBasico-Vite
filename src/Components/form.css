@@ -1,0 +1,89 @@
+/* Estilo para o contêiner do formulário */
+.containerForm {
+    background-color: #ffff; /* Cor de fundo branca */
+    margin-top: 30px; /* Margem superior de 30 pixels */
+    box-shadow: #d268cc 0px 0px 0px 1px inset, #9f5799 0px 0px 0px 1px; /* Sombra interna e externa com cores roxas */
+    border-radius: 3px; /* Bordas arredondadas com raio de 3 pixels */
+    margin: auto; /* Centraliza horizontalmente o contêiner */
+    margin-top: 100px; /* Margem superior de 100 pixels (sobrescreve a margem superior de 30px acima) */
+    height: 450px; /* Altura do contêiner de 450 pixels */
+    width: 850px; /* Largura do contêiner de 850 pixels */
+}
+
+/* Estilo para os rótulos dentro do controle de formulário */
+.form-control label {
+    font-weight: 20; /* Peso da fonte (normalmente valores são 400 para normal e 700 para negrito) */
+    font-size: smaller; /* Tamanho da fonte menor que o tamanho padrão */
+    margin-right: 10px; /* Margem à direita de 10 pixels */
+}
+
+/* Estilo para os botões dentro do controle de formulário */
+.form-control button {
+    font-weight: 20; /* Peso da fonte (como acima) */
+    font-size: smaller; /* Tamanho da fonte menor que o padrão */
+}
+
+/* Estilo para a classe "roxo" */
+.roxo {
+    height: 420px; /* Altura de 420 pixels */
+    display: flex; /* Usando flexbox para layout */
+    margin-left: 48%; /* Margem à esquerda de 48% (para centralizar o conteúdo de forma relativa) */
+    margin-top: -380px; /* Margem superior negativa de -380 pixels (ajustar posição vertical) */
+}
+
+/* Estilo para o título (h2) */
+h2 {
+    padding-top: 4%; /* Espaçamento interno superior de 4% */
+    color: #9f5799; /* Cor do texto roxa */
+    margin-left: 140px; /* Margem à esquerda de 140 pixels */
+    font-size: 30px; /* Tamanho da fonte de 30 pixels */
+}
+
+/* Estilo para os rótulos dentro do controle de formulário */
+.form-control label {
+    display: block; /* Exibe o rótulo como bloco para ocupação total da linha */
+    font-size: 20px; /* Tamanho da fonte de 20 pixels */
+    color: #000000; /* Cor do texto preta */
+    margin-bottom: 5px; /* Margem inferior de 5 pixels */
+    margin-left: 20px; /* Margem à esquerda de 20 pixels */
+}
+
+/* Estilo para os campos de entrada dentro do controle de formulário */
+.form-control input {
+    width: 25%; /* Largura de 25% do contêiner pai */
+    padding: 6px; /* Espaçamento interno de 6 pixels */
+    border: 1px solid #9f5799; /* Borda sólida de 1 pixel com cor roxa */
+    border-radius: 15px; /* Bordas arredondadas com raio de 15 pixels */
+    margin-left: 5%; /* Margem à esquerda de 5% */
+}
+
+/* Estilo para os botões dentro do controle de formulário */
+.form-control button {
+    background-color: #9f5799; /* Cor de fundo roxa */
+    color: #FFFFFF; /* Cor do texto branca */
+    border: none; /* Sem borda */
+    border-radius: 15px; /* Bordas arredondadas com raio de 15 pixels */
+    padding: 6px 85px; /* Espaçamento interno de 6 pixels vertical e 85 pixels horizontal */
+    font-size: 15px; /* Tamanho da fonte de 15 pixels */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    margin-left: 40px; /* Margem à esquerda de 40 pixels */
+    margin-top: 20px; /* Margem superior de 20 pixels */
+}
+
+/* Estilo para o controle de formulário */
+.form-control {
+    margin-left: 50px; /* Margem à esquerda de 50 pixels */
+    margin-top: 20px; /* Margem superior de 20 pixels */
+}
+
+/* Estilo para o botão quando o cursor está sobre ele (efeito hover) */
+.form-control button:hover {
+    background-color: #a961a3; /* Cor de fundo mais clara ao passar o cursor */
+    transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+    box-shadow: rgba(159, 87, 153, 0.4) 0px 5px,
+        rgba(159, 87, 153, 0.3) 0px 10px,
+        rgba(159, 87, 153, 0.2) 0px 15px,
+        rgba(159, 87, 153, 0.1) 0px 20px,
+        rgba(159, 87, 153, 0.05) 0px 25px; /* Efeito de sombra múltipla ao passar o cursor */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para cor de fundo, transformação e sombra */
+}
